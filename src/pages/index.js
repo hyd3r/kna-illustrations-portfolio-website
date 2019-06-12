@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import Banner from '../components/Banner';
 import WorksSection from '../components/WorksSection';
 import ConceptSection from '../components/ConceptSection';
+import About from '../components/About';
 
 class Index extends React.Component {
   constructor(props) {
@@ -35,7 +36,7 @@ class Index extends React.Component {
         ) : this.state.awe === 2 ? (
           <ConceptSection variant="light" className="pad" />
         ) : (
-          <Banner />
+          <About />
         )}
 
         <style jsx="true">

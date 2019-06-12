@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/8.png';
+import logo from '../data/works/8.png';
 import {
   FaEnvelope,
   FaTwitter,
