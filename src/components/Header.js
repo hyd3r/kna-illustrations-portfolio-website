@@ -31,14 +31,14 @@ const Header = props => (
         to="#section"
         onClick={() => props.handleClick(2)}
       >
-        Concept-Art
+        Concept
       </Link>
       <Link
         data-easing="easeInOutQuad"
         to="#section"
         onClick={() => props.handleClick(3)}
       >
-        About-Me
+        About
       </Link>
     </nav>
   </header>
