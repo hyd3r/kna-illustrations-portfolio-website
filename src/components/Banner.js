@@ -21,7 +21,7 @@ const Banner = props => (
       <div className="container">
         <ul className="icons">
           <li>
-            <a href="" className="icon alt" title="Twitter">
+            <a href="" className="icon alt fa-2x" title="Twitter">
               <FaTwitter />
               <span className="label">Twitter</span>
             </a>
@@ -29,7 +29,7 @@ const Banner = props => (
           <li>
             <a
               href="https://www.facebook.com/kheenamarie"
-              className="icon alt"
+              className="icon alt fa-2x"
               title="Facebook"
             >
               <FaFacebookF />
@@ -39,7 +39,7 @@ const Banner = props => (
           <li>
             <a
               href="https://www.instagram.com/kna_illustrations/"
-              className="icon alt"
+              className="icon alt fa-2x"
               title="Instagram"
             >
               <FaInstagram />
@@ -49,7 +49,7 @@ const Banner = props => (
           <li>
             <a
               href="mailto:artcellist25@gmail.com"
-              className="icon alt"
+              className="icon alt fa-2x"
               title="Email"
             >
               <FaEnvelope />
@@ -59,7 +59,7 @@ const Banner = props => (
           <li>
             <a
               href="https://ac_artblog.artstation.com/"
-              className="icon alt"
+              className="icon alt fa-2x"
               title="Art Station"
             >
               <FaArtstation />
@@ -69,7 +69,7 @@ const Banner = props => (
           <li>
             <a
               href="https://www.pixiv.net/member.php?id=26641063"
-              className="icon alt"
+              className="icon alt fa-2x"
               title="Pixiv"
             >
               <FaProductHunt />

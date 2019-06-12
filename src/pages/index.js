@@ -29,7 +29,7 @@ class Index extends React.Component {
         ></Helmet>
 
         <Banner />
-
+        <div id="section"></div>
         {this.state.awe === 1 ? (
           <WorksSection variant="dark" className="pad" />
         ) : this.state.awe === 2 ? (
