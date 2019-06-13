@@ -7,6 +7,7 @@ import ConceptSection from '../components/ConceptSection';
 import About from '../components/About';
 import Headroom from 'react-headroom';
 import { Link } from 'gatsby';
+import Seo from '../components/Seo';
 
 class Index extends React.Component {
   constructor(props) {
@@ -23,14 +24,10 @@ class Index extends React.Component {
   render() {
     return (
       <Layout handleClick={this.handleClick}>
-        <Helmet
+        <Seo
           title="KNA - Illustrations"
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        ></Helmet>
-
+          description="Hi KNA here! I am a Freelance Artist who is currently studying Video Game Designand Animation I am heavily influenced by anime and manga where my art style has evolved from. I tend to focus more on character design and illustration but I also have experience with 3D modeling and 3D animations"
+        />
         <Banner />
         <Headroom pinStart={700} disableInlineStyles style={{ zIndex: 5 }}>
           <center className="nav">
