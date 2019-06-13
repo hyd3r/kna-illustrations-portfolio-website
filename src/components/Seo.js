@@ -38,6 +38,10 @@ function Seo({ description, meta, title }) {
                 content: data.site.siteMetadata.siteUrl,
               },
               {
+                name: 'google-site-verification',
+                content: 'KWDk6S68Rva99YF232KfT0fJcKYNtlMPKLtZRddYWiU',
+              },
+              {
                 name: 'og:url',
                 content: data.site.siteMetadata.siteUrl,
               },
