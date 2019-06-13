@@ -24,7 +24,7 @@ class Index extends React.Component {
     return (
       <Layout handleClick={this.handleClick}>
         <Helmet
-          title="Kheena"
+          title="KNA - Illustrations"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
