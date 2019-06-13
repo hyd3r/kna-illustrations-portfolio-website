@@ -36,7 +36,7 @@ const About = props => (
         }
         .image {
           position: relative;
-          width: 100%; /* for IE 6 */
+          width: 100%;
         }
 
         .txth1 {

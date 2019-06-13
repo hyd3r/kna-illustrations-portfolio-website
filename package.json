@@ -30,6 +30,7 @@
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-headroom": "^2.2.8",
     "react-helmet": "^5.2.1",
     "react-helmet-async": "^1.0.2",
     "react-icons": "^3.7.0",

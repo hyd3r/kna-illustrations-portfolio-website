@@ -13,7 +13,7 @@ if (typeof window !== 'undefined') {
 const Header = props => (
   <header id="header" className="alt">
     <Link to="/" className="logo">
-      <strong>KNA</strong> <span>Artcellist</span>
+      <strong>KNA</strong> <span>Illustrations</span>
     </Link>
     <nav>
       {/* <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">
