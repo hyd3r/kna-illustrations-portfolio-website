@@ -12,7 +12,7 @@ if (typeof window !== 'undefined') {
 
 const Header = props => (
   <header id="header" className="alt">
-    <Link to="/" className="logo">
+    <Link onClick={() => window.location.reload()} className="logo">
       <strong>KNA</strong> <span>Illustrations</span>
     </Link>
     <nav>

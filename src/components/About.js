@@ -4,7 +4,7 @@ import pic from '../assets/scss/images/astolf.png';
 const About = props => (
   <section id="banner" className="major">
     <div className="inner">
-      <div class="image"></div>
+      <div className="image"></div>
       <div className="txth1">Hi, KNA here!</div>
       <img src={pic} align="right" />
       <div className="txtp">

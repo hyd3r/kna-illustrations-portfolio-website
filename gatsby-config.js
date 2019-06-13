@@ -7,7 +7,7 @@ module.exports = {
     author: 'Kheena Artcellist',
     email: 'artcellist25@gmail.com',
     keywords:
-      'art,artcellist,kheena,kna,illustrations,kna-illustrations,kna illustrations,concept art,portfolio,concept,about,artist,animator,designer,design,netlify,website,anime,drawings,illust,Hi KNA here! I am a Freelance Artist who is currently studying Video Game Designand Animation I am heavily influenced by anime and manga where my art style has evolved from. I tend to focus more on character design and illustration but I also have experience with 3D modeling and 3D animations',
+      'art,artcellist,kheena,kna,illustrations,kna-illustrations,kna illustrations,illustraion,knaillustrations,concept art,portfolio,concept,about,artist,animator,designer,design,netlify,website,anime,drawings,illust,Hi KNA here! I am a Freelance Artist who is currently studying Video Game Designand Animation I am heavily influenced by anime and manga where my art style has evolved from. I tend to focus more on character design and illustration but I also have experience with 3D modeling and 3D animations',
     siteUrl: 'https://kna-illustrations.netlify.com/',
     siteFacebookURL: 'https://www.facebook.com/kheenamarie',
     siteInstagramURL: 'https://www.instagram.com/kna_illustrations/',

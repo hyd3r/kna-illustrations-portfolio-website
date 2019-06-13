@@ -29,7 +29,11 @@ class Index extends React.Component {
           description="Hi KNA here! I am a Freelance Artist who is currently studying Video Game Designand Animation I am heavily influenced by anime and manga where my art style has evolved from. I tend to focus more on character design and illustration but I also have experience with 3D modeling and 3D animations"
         />
         <Banner />
-        <Headroom pinStart={700} disableInlineStyles style={{ zIndex: 5 }}>
+        <Headroom
+          pinStart={700}
+          disableInlineStyles
+          style={this.state.awe === 3 ? { zIndex: 3 } : { zIndex: 1 }}
+        >
           <center className="nav">
             <ul className="link">
               {/* <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">
