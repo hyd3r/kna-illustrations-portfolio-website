@@ -1,24 +1,19 @@
-- title: Soma
-  image: ./concepts/Soma_Schicksal.jpg
-- title: q
-  image: ./concepts/q.jpg
-- title: w
-  image: ./concepts/w.jpg
-- title: e
-  image: ./concepts/e.jpg
-- title: r
-  image: ./concepts/r.jpg
-- title: t
-  image: ./concepts/t.jpg
-- title: yy
-  image: ./concepts/y.jpg
-- title: u
-  image: ./concepts/u.jpg
-- title: i
-  image: ./concepts/i.jpg
-- title: p
-  image: ./concepts/p.jpg
-- title: o
-  image: ./concepts/o.jpg
-- title: m
-  image: ./concepts/m.jpg
+- title: Character Design 2
+  image: ./concepts/Character Design 2.jpg
+- title: No. 002
+  image: ./concepts/No. 001.png
+- title: Character Design
+  image: ./concepts/Character Design.jpg
+- title: Original Character
+  image: ./concepts/Original Character.jpg
+- title: Props
+  image: ./concepts/Props.jpg
+- title: Humanoid
+  image: ./concepts/Humanoid.jpg
+- title: Mech
+  image: ./concepts/Mech.jpg
+- title: Sea Creature
+  image: ./concepts/SeaCreature.jpg
+- title: Worker-Queen-Soldier
+  image: ./concepts/Creatures.jpg
+
