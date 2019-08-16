@@ -18,7 +18,7 @@ const Header = props => (
     <nav>
       {/* <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">
         Menu
-      </a> */}
+      </a>
       <Link
         data-easing="easeInOutQuad"
         to="#section"
@@ -39,7 +39,7 @@ const Header = props => (
         onClick={() => props.handleClick(3)}
       >
         About
-      </Link>
+      </Link> */}
     </nav>
   </header>
 );

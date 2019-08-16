@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from '../data/works/8.png';
+import logo from '../assets/scss/images/Logo.png';
 import {
   FaEnvelope,
   FaTwitter,
-  FaFacebookF,
+  FaTumblr,
   FaInstagram,
   FaArtstation,
+  FaDeviantart,
   FaProductHunt,
 } from 'react-icons/fa';
 
@@ -14,7 +15,7 @@ const Banner = props => (
     <div className="inner">
       {/* <header className="major"> */}
       <div>
-        <img className="logo" src={logo} />
+        <img className="logo" src={logo} width="270" height="270" />
         <h2 align="center">KNA - Artcellist</h2>
       </div>
       {/* </header> */}
@@ -23,7 +24,7 @@ const Banner = props => (
           <li>
             <a
               target="_blank"
-              href=""
+              href="https://twitter.com/kna_illust"
               className="icon alt fa-2x"
               title="Twitter"
             >
@@ -34,12 +35,12 @@ const Banner = props => (
           <li>
             <a
               target="_blank"
-              href="https://www.facebook.com/kheenamarie"
+              href="https://kna-illustrations.tumblr.com/"
               className="icon alt fa-2x"
-              title="Facebook"
+              title="Tumblr"
             >
-              <FaFacebookF />
-              <span className="label">Facebook</span>
+              <FaTumblr />
+              <span className="label">Tumblr</span>
             </a>
           </li>
           <li>
@@ -72,6 +73,17 @@ const Banner = props => (
             >
               <FaArtstation />
               <span className="label">Art Station</span>
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.deviantart.com/ac-artblog"
+              className="icon alt fa-2x"
+              title="DeviantArt"
+            >
+              <FaDeviantart />
+              <span className="label">DeviantArt</span>
             </a>
           </li>
           <li>

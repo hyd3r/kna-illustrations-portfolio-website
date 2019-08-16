@@ -1,12 +1,12 @@
 import React from 'react';
-import pic from '../assets/scss/images/astolf.png';
+import pic from '../assets/scss/images/Logo_2.png';
 
 const About = props => (
   <section id="banner" className="major">
     <div className="inner">
       <div className="image"></div>
       <div className="txth1">Hi, KNA here!</div>
-      <img src={pic} align="right" />
+      <img src={pic} align="right" width="600" height="600" />
       <div className="txtp">
         I am a <b>Freelance Artist</b> who is currently studying{' '}
         <b>Video Game Design</b> <br />
@@ -45,7 +45,7 @@ const About = props => (
           font-family: 'Signika', sans-serif;
           padding-bottom: 10px;
           position: absolute;
-          top: 130px;
+          top: 30px;
           left: 100px;
           width: 100%;
         }
@@ -56,7 +56,7 @@ const About = props => (
           margin-bottom: 15px;
           color: #ffffff;
           position: absolute;
-          top: 220px;
+          top: 120px;
           left: 0;
           width: 100%;
         }

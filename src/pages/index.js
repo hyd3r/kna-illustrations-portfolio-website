@@ -95,11 +95,11 @@ class Index extends React.Component {
             }
             .headroom--unpinned {
               position: fixed;
-              transform: translateY(0%);
+              transform: translateY(-100%);
             }
             .headroom--pinned {
               position: fixed;
-              transform: translateY(-100%);
+              transform: translateY(0%);
             }
             .nav {
               width: 100%;
